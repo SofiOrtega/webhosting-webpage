@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img src="img/M5-logo-azul.svg" alt="logo" id="imagen-logo">        
+             <nav>
+                 <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="#" class="link-2 active">Contacto</a></li>
+                 </ul>
+             </nav>
+        </div>
+    </header>
+
+    <div class="form-body">
+        <div class="form-texts">
+             <h2>¿Querés que nos contactemos con vos?</h2>
+             <p>Dejanos tu consulta:</p>
+        </div>
+        
+        <form action="contacto.php">
+              <div class="campo">
+                  <label for="nombre">Nombre completo <span>*</span></label>
+                 <input type="text" id="nombre" placeholder="Ej. Leandro Ortega">
+              </div>
+              <div class="campo">
+                  <label for="email">Email <span>*</span></label>
+                  <input type="email" id="email" placeholder="Ej. name@example.com">
+              </div>
+              <div class="campo">
+                  <label for="comentario">Comentario <span>*</span></label>
+                  <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+              </div>
+              <div class="form-botones">
+                  <button type="reset" class="resetear">Resetear</button>
+                  <button type="submit" class="enviar">Enviar</button>
+              </div>      
+          </form>
+    </div>
+    <footer>
+        <img src="img/M5-logo-blanco.svg" alt="logo" class="logo-footer">
+    </footer>
+
+          
+</body>
+</html>
